@@ -7,7 +7,7 @@ Developing a system that controls the speed of a fan based on the temperature va
 * LM35 Temprature Sensor
 * LCD
 # Project on Proteus:
-![image](https://github.com/MohamedMostafaaaa/Fan-Speed-Controller/assets/134022125/9f47af53-6be8-49ca-ac2c-147b0bd9faab)
+![image](https://github.com/MohamedMostafaaaa/Fan-Speed-Controller/assets/134022125/394c5414-1c59-405b-9626-3add20d740bd)
 # Drivers Used:
 * GPIO
 * LCD
@@ -16,7 +16,7 @@ Developing a system that controls the speed of a fan based on the temperature va
 * DC Motor
 * LM35-Sensor
 # Project Functionalities
-we are changing the Temprature using the Sensor and according to it:
+we are changing the Temprature using the Sensor LM35 and based on it fan speed changes as follows:
 * If the temperature is less than 30C turn off the fan.
 * If the temperature is greater than or equal 30C turn on the fan with 25% of its 
 maximum speed

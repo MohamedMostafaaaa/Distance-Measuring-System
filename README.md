@@ -1,28 +1,15 @@
-# Fan-Speed-Controller
-Developing a system that controls the speed of a fan based on the temperature value
+# Distance-Measuring-System
+- Developing a system that measure the distance using Ultrasonic Sensor and display it on LCD
 # Hardware Used:
 * ATmega32 Microcontroller
-* DC Motor
-* H Bridge
-* LM35 Temprature Sensor
+* Ultra-Sonic Sensor
 * LCD
 # Project on Proteus:
-![image](https://github.com/MohamedMostafaaaa/Fan-Speed-Controller/assets/134022125/394c5414-1c59-405b-9626-3add20d740bd)
+![image](https://github.com/AmrWahid51/Distance-Measuring-System/assets/145209640/a9d72a77-75c2-4563-a6f8-a857d219d1a5)
 # Drivers Used:
 * GPIO
 * LCD
-* PWM
-* ADC
-* DC Motor
-* LM35-Sensor
-# Project Functionalities
-we are changing the Temprature using the Sensor LM35 and based on it fan speed changes as follows:
-* If the temperature is less than 30C turn off the fan.
-* If the temperature is greater than or equal 30C turn on the fan with 25% of its 
-maximum speed
-* If the temperature is greater than or equal 60C turn on the fan with 50% of its 
-maximum speed
-* If the temperature is greater than or equal 90C turn on the fan with 75% of its 
-maximum speed.
-* If the temperature is greater than or equal 120C turn on the fan with 100% of its 
-maximum speed.
+* ICU
+* Ultra-Sonic Sensor
+# Project Functionalities:
+The Microcontroller send a trigger signal and from it it measure the distance between the source and the object and then display this distance on the LCD

@@ -24,7 +24,7 @@ u8 distance = 0;
 
 void main(void)
 {
-	/*****************************Initialize peripherals*****************************/
+/*******************************Initialize peripherals*******************************/
 	GIE_Init();
 	LCD_init();
 	Ultrasonic_init();
